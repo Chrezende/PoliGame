@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e5d21cda7d288004793d0f7f4664048c
+timeCreated: 1512241651
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Made with Paint
+  fontNames:
+  - Made with Paint
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

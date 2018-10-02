@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1276349079242400}
+  m_IsPrefabParent: 1
+--- !u!1 &1276349079242400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4369050514198578}
+  - component: {fileID: 114518013825592026}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4369050514198578
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276349079242400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114518013825592026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276349079242400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f37de2b4eaa7c734d810af060d0b040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: 3d98c56321e22a744bb8fc62d978ab96, type: 3}
+    isMusic: 1
+    isSFX: 0
+    loop: 1
+    volume: 1
+    pitch: 1
+    sourse: {fileID: 0}
+  - name: Ping
+    clip: {fileID: 8300000, guid: 47d0f01f1f8833746b810704ec6e8c76, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 1
+    pitch: 1
+    sourse: {fileID: 0}
+  - name: Hint
+    clip: {fileID: 8300000, guid: 46a9bfe6e0a6e734e9344245da1a09c2, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 1
+    pitch: 1
+    sourse: {fileID: 0}
+  - name: Bubble
+    clip: {fileID: 8300000, guid: 6f7f1bc381bee7a4f9ede5a0a6057d4d, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 1
+    pitch: 1
+    sourse: {fileID: 0}
+  - name: BeepUp
+    clip: {fileID: 8300000, guid: e3609ecb7c1267b418139e42c8e5d12d, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 1
+    pitch: 1
+    sourse: {fileID: 0}
+  - name: BeepDown
+    clip: {fileID: 8300000, guid: 0db085febe9bbe24f85b5eafd67517b2, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 1
+    pitch: 1
+    sourse: {fileID: 0}
+  - name: Achiev
+    clip: {fileID: 8300000, guid: 74d4b84a111df084fac6ff3bf41a07b7, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 1
+    pitch: 1
+    sourse: {fileID: 0}
+  - name: WarningBeep
+    clip: {fileID: 8300000, guid: 4afa12ccce7316040a890b9eb1f164e3, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 1
+    pitch: 1
+    sourse: {fileID: 0}
+  - name: WarningAlarm
+    clip: {fileID: 8300000, guid: 2cb8dd566e0522f4e993bb7c9bb34e4c, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 1
+    pitch: 1
+    sourse: {fileID: 0}
+  - name: PhoneRing
+    clip: {fileID: 8300000, guid: 4757606001914b54195b88051b2dbca3, type: 3}
+    isMusic: 0
+    isSFX: 0
+    loop: 1
+    volume: 0.7
+    pitch: 1
+    sourse: {fileID: 0}
+  - name: DoorBell
+    clip: {fileID: 8300000, guid: 2faf407868222d54e9dc3081d188dde9, type: 3}
+    isMusic: 0
+    isSFX: 0
+    loop: 0
+    volume: 1
+    pitch: 1
+    sourse: {fileID: 0}
+  - name: OpenDoor
+    clip: {fileID: 8300000, guid: 9052ec917a0f20e4a9a2da053f80e5cf, type: 3}
+    isMusic: 0
+    isSFX: 0
+    loop: 0
+    volume: 0.7
+    pitch: 2
+    sourse: {fileID: 0}
+  - name: ClosingDoor
+    clip: {fileID: 8300000, guid: 33c054e2767f8704ab354add3865ee35, type: 3}
+    isMusic: 0
+    isSFX: 0
+    loop: 0
+    volume: 0.7
+    pitch: 2.2
+    sourse: {fileID: 0}

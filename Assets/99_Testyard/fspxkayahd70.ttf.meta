@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 11c754c368527304090518111172a16a
+timeCreated: 1512241650
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FSPxKayahD70
+  fontNames:
+  - FSPxKayahD70
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

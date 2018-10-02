@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 79eb7e178fb0f7d4b847c63f974db109
+timeCreated: 1512241650
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Linepixels
+  fontNames:
+  - Linepixels
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
