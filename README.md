@@ -1,8 +1,8 @@
 ﻿# PoliGame
 
-Jogo
 
-Desenvolvido em 72 horas para a [Ludum Dare 40 Game Jam](https://ldjam.com/events/ludum-dare/40/poligame), com o tema "Quanto mais você tem, pior é".
+
+Jogo desenvolvido em 72 horas para a [Ludum Dare 40 Game Jam](https://ldjam.com/events/ludum-dare/40/poligame), com o tema "Quanto mais você tem, pior é".
 
 
 
